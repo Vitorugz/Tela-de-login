@@ -2,8 +2,8 @@
 $login = $_POST['login'];
 $entrar = $_POST['entrar'];
 $senha = md5($_POST['senha']);
-$connect = mysql_connect('nome_do_servidor','nome_de_usuario','senha');
-$db = mysql_select_db('nome_do_banco_de_dados');
+$connect = mysql_connect('d7bfjjfsdmcabu','liggkipogwrssv','d474e521c3cd7e4eee57dc35c2db8023b96126282ee5976e82dded2fc3e16a70');
+$db = mysql_select_db('liggkipogwrssv');
   if (isset($entrar)) {
 
     $verifica = mysql_query("SELECT * FROM usuarios WHERE login =
